@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mikael Cosmo - Tractor Pull</title>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,400,200,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="css/main2.css" >
+</head>
+<body>
+
+	<!-- box is checked by default, for convenience -->
+	<input type="checkbox" id="toggle" checked="true">
+
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="portfolio.html">Portfolio</a>
+				<ul class=submenu>
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="tractor.html">Tractor Pull</a></li>
+				</ul>
+			</li>
+		</ul>
+
+			<div class="wrapper">	
+				<label for="toggle">☰ menu</label>
+				
+				<div class="container">
+					<h1 class="pageHeader">Tractor Pull</h1>
+				</div>
+			
+				<div class="intro">
+					<div class="container">
+
+						<p>Everyone loves a tractor pull.</p>
+
+					</div>
+				</div>
+
+						<div class="photos">
+							<div class="flexslider">
+								<ul class="slides">
+									<li>
+										<label for="info14">i</label>
+										<input type="checkbox" id="info14">
+										<div class="info">Dust</div>
+										<img src="photos/9_mctp-01.jpg" alt="Tractor Pull 1">
+									</li>
+									<li>
+										<label for="info15">i</label>
+										<input type="checkbox" id="info15">
+										<div class="info">Crowd</div>
+										<img src="photos/9_mctp-11.jpg" alt="Tractor Pull 2">
+									</li>
+									<li>
+										<label for="info16">i</label>
+										<input type="checkbox" id="info16">
+										<div class="info">Truck</div>
+										<img src="photos/9_mctp-09.jpg" alt="Tractor Pull 3">
+									</li>
+									<li>
+										<label for="info17">i</label>
+										<input type="checkbox" id="info17">
+										<div class="info">Guy</div>
+										<img src="photos/9_mctp-06.jpg" alt="Tractor Pull 4">
+									</li>
+									<li>
+										<label for="info18">i</label>
+										<input type="checkbox" id="info18">
+										<div class="info">Spectators</div>
+										<img src="photos/9_mctp-07.jpg" alt="Tractor Pull 5">
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+			<script src="js/jquery.flexslider.js"></script>
+			<script>
+				// Can also be used with $(document).ready()
+				$(window).load(function() {
+				  $('.flexslider').flexslider({
+				    slideshow:false,
+				    directionNav:false,
+				    controlNav:true,
+				    animation:'fade'
+				  });
+				});
+			</script>
+			
+		</body>
+		</html>

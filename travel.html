@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mikael Cosmo - Travel Photos</title>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,400,200,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="css/main2.css" >
+</head>
+<body>
+
+	<!-- box is checked by default, for convenience -->
+	<input type="checkbox" id="toggle" checked="true">
+
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="portfolio.html">Portfolio</a>
+				<ul class=submenu>
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="tractor.html">Tractor Pull</a></li>
+				</ul>
+			</li>
+		</ul>
+
+			<div class="wrapper">	
+				<label for="toggle">☰ menu</label>
+				
+				<div class="container">
+					<h1 class="pageHeader">Travel Photography</h1>
+				</div>
+			
+				<div class="intro">
+					<div class="container">
+
+						<p>Travels in Austria and Russia.</p>
+
+					</div>
+				</div>
+
+						<div class="photos">
+							<div class="flexslider">
+								<ul class="slides">
+									<li>
+										<label for="info9">i</label>
+										<input type="checkbox" id="info9">
+										<div class="info">Österreich / Austria</div>
+										<img src="photos/7_mcw-unterberg.jpg" alt="Austria">
+									</li>
+									<li>
+										<label for="info10">i</label>
+										<input type="checkbox" id="info10">
+										<div class="info">Doll Park, Russia</div>
+										<img src="photos/11_mcrussia-dollpark.jpg" alt="Doll Park 1">
+									</li>
+									<li>
+										<label for="info11">i</label>
+										<input type="checkbox" id="info11">
+										<div class="info">Doll Park Roof, Russia</div>
+										<img src="photos/11_mcrussia-roofpark.jpg" alt="Doll Park 2">
+									</li>
+									<li>
+										<label for="info12">i</label>
+										<input type="checkbox" id="info12">
+										<div class="info">Rush Hour, Russia</div>
+										<img src="photos/11_mcrussia-rush.jpg" alt="Rush">
+									</li>
+									<li>
+										<label for="info13">i</label>
+										<input type="checkbox" id="info13">
+										<div class="info">Munkee Travel</div>
+										<img src="photos/13_mcmunkee-4.jpg" alt="Munkee">
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+			<script src="js/jquery.flexslider.js"></script>
+			<script>
+				// Can also be used with $(document).ready()
+				$(window).load(function() {
+				  $('.flexslider').flexslider({
+				    slideshow:false,
+				    directionNav:false,
+				    controlNav:true,
+				    animation:'fade'
+				  });
+				});
+			</script>
+			
+		</body>
+		</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mikael Cosmo</title>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,400,200,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="css/main2.css" >
+</head>
+<body>
+
+	<!-- box is checked by default, for convenience -->
+	<input type="checkbox" id="toggle" checked="true">
+
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="portfolio.html">Portfolio</a>
+				<ul class=submenu>
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="tractor.html">Tractor Pull</a></li>
+				</ul>
+			</li>
+		</ul>
+
+			<div class="wrapper">	
+				<label for="toggle">☰ menu</label>
+				
+				<div class="container">
+					<h1 class="pageHeader">Portfolio Book</h1>
+				</div>
+			
+				<div class="intro">
+					<div class="container">
+
+						<p>The portfolio book is a compilation of photographs put together as an overview.</p>
+
+					</div>
+				</div>
+
+						<div class="photos">
+							<div class="flexslider">
+								<ul class="slides">
+									<li>
+										<label for="info1">i</label>
+										<input type="checkbox" id="info1">
+										<div class="info">Lake Superior, Thunder Bay</div>
+										<img src="photos/7_1_mctbay-island.jpg" alt="Lake Superior - Thunder Bay">
+									</li>
+									<li>
+										<label for="info2">i</label>
+										<input type="checkbox" id="info2">
+										<div class="info">The Fire, Russia</div>
+										<img src="photos/7_2_mcrussia-fire.jpg" alt="The Fire - Russia">
+									</li>
+									<li>
+										<label for="info3">i</label>
+										<input type="checkbox" id="info3">
+										<div class="info">Miss Luisa</div>
+										<img src="photos/7_4_mcportrait-luisa01.jpg" alt="Miss Luisa">
+									</li>
+									<li>
+										<label for="info4">i</label>
+										<input type="checkbox" id="info4">
+										<div class="info">The Road Trip</div>
+										<img src="photos/7_5_mcmunkee-6.jpg" alt="The Road Trip">
+									</li>
+									<li>
+										<label for="info5">i</label>
+										<input type="checkbox" id="info5">
+										<div class="info">Sam Flores Toy</div>
+										<img src="photos/7_6_mcthings-toy.jpg" alt="Sam Flores Toy">
+									</li>
+									<li>
+										<label for="info6">i</label>
+										<input type="checkbox" id="info6">
+										<div class="info">Silvermayne</div>
+										<img src="photos/7_7_mcportrait-sylvermayne02.jpg" alt="Silvermayne">
+									</li>
+									<li>
+										<label for="info7">i</label>
+										<input type="checkbox" id="info7">
+										<div class="info">Father and Son at a Tractor Pull</div>
+										<img src="photos/7_8_mctp-10.jpg" alt="Father and son at a Tractor Pull">
+									</li>
+									<li>
+										<label for="info8">i</label>
+										<input type="checkbox" id="info8">
+										<div class="info">The Square Business, Moscow</div>
+										<img src="photos/7_9_mcrussia-business.jpg" alt="Red Square Business - Moscow">
+									</li>
+								</ul>
+							</div>
+						</div>
+
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+			<script src="js/jquery.flexslider.js"></script>
+			<script>
+				// Can also be used with $(document).ready()
+				$(window).load(function() {
+				  $('.flexslider').flexslider({
+				    slideshow:false,
+				    directionNav:false,
+				    controlNav:true,
+				    animation:'fade'
+				  });
+				});
+			</script>
+			
+		</body>
+		</html>
